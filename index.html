@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Temperature Converter  (Task)</h1>
+        <h1>Tufail Ahmed Roll No:183551</h1>
+   
+        
+        <div class="temperature_converter">
+            <!-- mobile_Icons -->
+            <div class="mobile">
+                <p>9.30</p>
+                <div class="icons">
+                    <i class="fa-solid fa-signal"></i>
+                    <i class="fa-solid fa-wifi"></i>
+                    <i class="fa-solid fa-battery-full"></i>
+                </div>
+                <h1 class="title">Temperature Converter</h1>
+                <div class="result">
+                    <span id="class_heading">Result...</span>
+                    <h2 class="Celsius-value" id="Celsius">1</h2>
+                </div>
+                <div class="degree-type">
+                    <label for="degree">Degree</label>
+                    <input type="number" name="degree" id="degree">
+                </div>
+                <div class="temp-field">
+                    <label for="temp-type">Type</label>
+                    <select name="temperature" id="temp-type">
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="kelvin">Kelvin</option>
+                    </select>
+                </div>
+                <button id="convert_btn">Convert</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
